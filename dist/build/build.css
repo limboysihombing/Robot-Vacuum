@@ -179,6 +179,7 @@ sub {
 
 img {
   border: 0;
+  margin-top: 240px;
 }
 
 /**
