@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "gulp-v3": "^3.12.1"
   }
 }
