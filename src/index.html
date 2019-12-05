@@ -12,23 +12,57 @@
     p{
       font-size: 10px;
     }
-    .content1 {
-      position: absolute;
-      top: 5em;
-      left: 16em;
-    }
-    .content2 {
-      position: absolute;
-      top: 5em;
-      left: 28em;
-    }
+    
     .slide5 .judul{
       text-align: center;
     }
+    .slide5 h2{
+      margin-top: -15em;
+    }
+    .slide6 h2{
+      margin-top: -7em;
+    }
+    .slide6{
+      background-image: url('images/bg_slide6.png');
+      background-position: center;
+      background-size: 200%;
+      text-align: center;
+    }
+    .slide6{
+      color: white;
+    }
+    .slide6 .icon{
+        width: 70px;
+        height: 70px;
+        display: block;
+        margin: 0 auto;
+        background-image: url('images/iconslide6.png');
+    }
+    .slide6 .icon.icon2{
+       background-position: -70px 0;
+    }
+    .slide6 .icon.icon3{
+       background-position: -140px 0;
+    }
+    .slide6 .icon.icon4{
+       background-position: -210px 0;
+    }
+
     .imgslide5{
+      width: 140px;
+      height: 140px;
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+    .contents5_2 .imgslide5, .contents5_3 .imgslide5{
+      margin-top :50px;
+    }
+    .contents6_1, .contents6_2, .contents6_3, .contents6_4{
+      margin-top: 11em;
+    }
+    .contents6_1 h5, .contents6_2 h5, .contents6_3 h5, .contents6_4 h5{
+      color:#fc4b1e;
     }
     .img4{
       width: 320px;
@@ -41,10 +75,42 @@
       border-radius: 50%;
     }
 
-    .content {
+    .contents5_1 {
       position: absolute;
       top: 5em;
-      left: 1em;
+      left: 3.5em;
+      width: 140px;
+    }
+    .contents5_2 {
+      position: absolute;
+      top: 5em;
+      left: 15em;
+    }
+    .contents5_3 {
+      position: absolute;
+      top: 5em;
+      left: 28em;
+    }
+    
+    .contents6_1 {
+      position: absolute;
+      top: 5em;
+      left: 4em;
+    }
+    .contents6_2 {
+      position: absolute;
+      top: 5em;
+      left: 12em;
+    }
+    .contents6_3 {
+      position: absolute;
+      top: 5em;
+      left: 21em;
+    }
+    .contents6_4 {
+      position: absolute;
+      top: 5em;
+      left: 31em;
     }
 
     body{
@@ -95,9 +161,11 @@
   </section>
 
   <section class="slide5">
+      <h2>Keunggulan Robot Vacuum</h2>
       <ul class="build-items">
-          
-          <li style="list-style-type:none"><div class="content">
+          <li style="list-style-type:none"></li>
+
+          <li style="list-style-type:none"><div class="contents5_1">
               <div><h3 class="judul">Lebih dari sekedar pintar</h3><img class="imgslide5" src="images/foto1.png"></div><p></p>
                 <p>LDS & beragam sensor</p>
                 <p>Pembuatan peta, perencanaan jalur</p>
@@ -106,7 +174,7 @@
             </div>
           </li>
           <li style="list-style-type:none">
-              <div class="content1">
+              <div class="contents5_2">
               <div><h3 class="judul">Bertenaga</h3><img class="imgslide5" src="images/foto2.png"></div><p></p>
                 <p>Kipas bertenaga tinggi</p>
                 <p>Sikat utama mengambang</p>
@@ -114,7 +182,7 @@
                 <p>Maks 10mm celah pembersih dinding</p></div>
           </li>
           <li style="list-style-type:none">
-             <div class="content2">
+             <div class="contents5_3">
              <div><h3 class="judul">Fungsional</h3><img class="imgslide5" src="images/Screenshot_1.png"></div><p></p>
                 <p>Desain minimalis</p>
                 <p>Baterai 5200mAh</p>
@@ -125,25 +193,38 @@
   </section>
 
   <section class="slide6">
-    <h2>Membersihkan Dengan Cerdas</h2>
-    <h4>Robot vacuum akan menganalisis cara terbaik membersihkan rumahmu</h4>
-    <p>12 sensor dan 3 prosesor berkolaborasi menggunakan algoritma SLAM industri terkemuka untuk membuat peta ruangan dan menentukan posisi vacuum. Menentukan area pembersihan dan jalur pembersihan, untuk pembersihan dengan efisiensi yang optimal, vacuum menggunakan pola pembersihan berbentuk Z.</p>
-    <div class="item">
-      
-      <h5>Visual</h5>
-      <p>Sensor laser jarak</p>
+        <h2>Membersihkan Dengan Cerdas</h2>
+        <h4>Robot vacuum akan menganalisis cara terbaik membersihkan rumahmu</h4>
+        <p>12 sensor dan 3 prosesor berkolaborasi menggunakan algoritma SLAM industri terkemuka untuk membuat peta ruangan dan menentukan posisi vacuum. Menentukan area pembersihan dan jalur pembersihan, untuk pembersihan dengan efisiensi yang optimal, vacuum menggunakan pola pembersihan berbentuk Z.</p>
+        <div class="item">
+          <ul class="build-items">      
+              <li style="list-style-type:none"></li>
+              
+              <li style="list-style-type:none"><div class="contents6_1">
+                <div class="icon icon1"></div>
+                <h5>Visual</h5>
+                <p>Sensor laser jarak</p>
+              </li>
 
-      <h5>Jarak</h5>
-      <p>Kerjasama multi-sensor</p>
+              <li style="list-style-type:none"><div class="contents6_2">
+                <div class="icon icon2"></div>
+                <h5>Jarak</h5>
+                <p>Kerjasama multi-sensor</p>
+              </li>
 
-      <h5>Prosesor</h5>
-      <p>3 prosesor yang independen</p>
+              <li style="list-style-type:none"><div class="contents6_3">
+                <div class="icon icon3"></div>
+                <h5>Prosesor</h5>
+                <p>3 prosesor yang independen</p>
+              </li>
 
-      <h5>Kerangka</h5>
-      <p>Algortima SLAM</p>
-
-    </div>
-  
+              <li style="list-style-type:none"><div class="contents6_4">
+                <div class="icon icon4"></div>
+                <h5>Kerangka</h5>
+                <p>Algortima SLAM</p>
+            </li>
+          </ul>
+        </div>
     </section>
 
   <section class="slide7">
