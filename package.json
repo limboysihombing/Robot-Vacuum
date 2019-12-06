@@ -33,6 +33,7 @@
     "node": ">=4.2.0"
   },
   "dependencies": {
+    "animate.css": "^3.7.2",
     "gulp-v3": "^3.12.1"
   }
 }
