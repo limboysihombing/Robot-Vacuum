@@ -471,7 +471,7 @@ video {
 .bespoke-slide {
   overflow: hidden;
   opacity: 0;
-  background-color: #fff;
+  background: white;
   position: absolute;
   top: 50%;
   left: 50%;
