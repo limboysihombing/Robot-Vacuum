@@ -49,11 +49,32 @@
     }
 
     .imgslide5{
-      width: 140px;
-      height: 140px;
+      width: 120px;
+      height: 120px;
       display: block;
-      margin-left: auto;
+      margin-left: 3em;
+      margin-top: 1em;
       margin-right: auto;
+      border-radius: 50%;
+    }
+
+    .imgslide5a{
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin-left: 3em;
+      margin-top: 1em;
+      margin-right: auto;
+      border-radius: 50%;
+    }
+    .imgslide5b{
+      width: 120px;
+      height: 120px;
+      display: block;
+      margin-left: 3em;
+      margin-top: 1em;
+      margin-right: auto;
+      border-radius: 50%;
     }
     .contents5_2 .imgslide5, .contents5_3 .imgslide5{
       margin-top :50px;
@@ -64,32 +85,48 @@
     .contents6_1 h5, .contents6_2 h5, .contents6_3 h5, .contents6_4 h5{
       color:#fc4b1e;
     }
-    .img4{
-      width: 320px;
-      height: 320px;
-      border-radius: 50%;
-    }
-    .img5{
-      width: 250px;
-      height: 150px;
-      border-radius: 50%;
-    }
-
+   
     .contents5_1 {
       position: absolute;
-      top: 5em;
-      left: 3.5em;
-      width: 140px;
+      top: 3em;
+      left: 0em;
+      width: 640px;
+      height: 155px;
+      /*background: #757575;*/
+    }
+    .contents5_11 {
+      position: absolute;
+      top: 0;
+      left: 12em;
+      width: 240px;
     }
     .contents5_2 {
       position: absolute;
-      top: 5em;
-      left: 15em;
+      top: 194px;
+      left: 0em;
+      width: 640px;
+      height: 155px;
+      /*background: #757575;*/
     }
-    .contents5_3 {
+    .contents5_22 {
       position: absolute;
-      top: 5em;
-      left: 28em;
+      top: 0em;
+      left: 12em;
+      width: 240px;
+    }
+    .contents5_3{
+      position: absolute;
+      top: 342px;
+      left: 0em;
+      width: 640px;
+      height: 155px;
+      /*background: #757575;*/
+    }
+    .contents5_33 {
+      position: absolute;
+      top: 0em;
+      left: 12em;
+      width: 243px;
     }
     
     .contents6_1 {
@@ -115,12 +152,11 @@
 
     body{
       background-image: url('images/background.jpg');
+      font-family: ProximaNova,Arial,Sans-serif;
     }
 
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" type="text/css" href="build/build.css">
-  <link rel="stylesheet" href="animate.min.css">
 </head>
 <body>
 <article class="deck">
@@ -130,9 +166,6 @@
   </header>
   <section class="slide1">
       <p id="preview_input"></p>
-      <input id="input" type="text">
-      
-    <button type="submit"  onClick="refreshPage()">Refresh Button</button>
     <h1>Robot Vacuum</h1>
     <h4 class="nama_kelompok">Nama Kelompok</h4>
     <ul>
@@ -168,31 +201,45 @@
   <section class="slide5">
       <h2>Keunggulan Robot Vacuum</h2>
       <ul class="build-items">
-          <li style="list-style-type:none"></li>
-
-          <li style="list-style-type:none"><div class="contents5_1">
-              <div><h3 class="judul">Lebih dari sekedar pintar</h3><img class="imgslide5" src="images/foto1.png"></div><p></p>
-                <p>LDS & beragam sensor</p>
-                <p>Pembuatan peta, perencanaan jalur</p>
-                <p>Secara otomatis kembali ke dock pengisian daya</p>
-                <p>Melanjutkan pembersihan dari sesi sebelumnya</p>
+          <li style="list-style-type:none">
+            <div class="contents5_1">
+                <div class="contents5_11">
+                    <h4>Lebih dari sekedar pintar</h4>
+                    <p>LDS & beragam sensor</p>
+                    <p>Pembuatan peta, perencanaan jalur</p>
+                    <p>Secara otomatis kembali ke dock pengisian daya</p>
+                    <p>Melanjutkan pembersihan dari sesi sebelumnya</p>
+                  </div>
+              <div>
+                <img class="imgslide5" src="images/foto1.png">
+              </div>
             </div>
           </li>
           <li style="list-style-type:none">
               <div class="contents5_2">
-              <div><h3 class="judul">Bertenaga</h3><img class="imgslide5" src="images/foto2.png"></div><p></p>
-                <p>Kipas bertenaga tinggi</p>
-                <p>Sikat utama mengambang</p>
-                <p>Sikat samping berkecepatan dinamis</p>
-                <p>Maks 10mm celah pembersih dinding</p></div>
+                <div class="contents5_22">
+                  <h4>Bertenaga</h4>
+                  <p>Kipas bertenaga tinggi</p>
+                  <p>Sikat utama mengambang</p>
+                  <p>Sikat samping berkecepatan dinamis</p>
+                  <p>Maks 10mm celah pembersih dinding</p> 
+                </div>
+              <div>
+                <img class="imgslide5a" src="images/foto2.png">
+              </div>
+            </div>    
           </li>
           <li style="list-style-type:none">
-             <div class="contents5_3">
-             <div><h3 class="judul">Fungsional</h3><img class="imgslide5" src="images/Screenshot_1.png"></div><p></p>
-                <p>Desain minimalis</p>
-                <p>Baterai 5200mAh</p>
-                <p>Dikendalikan dengan ponsel</p>
-                <p>Peta pembersihan waktu-nyata</p></div>
+              <div class="contents5_3">
+                <div class="contents5_33">
+                  <h4>Fungsional</h4>
+                  <p>Desain minimalis | Baterai 5200mAh
+                <p>Dikendalikan dengan ponsel | Peta pembersihan waktu-nyata</p>
+                </div>
+              <div>
+                <img class="imgslide5b" src="images/foto2.png">
+              </div>
+            </div>    
           </li>
       </ul>
   </section>
