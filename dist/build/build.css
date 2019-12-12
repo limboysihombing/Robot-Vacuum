@@ -9,41 +9,31 @@
     background-position: center;
 }
 p{
-	font-size: 12px;
-}
-.slide5 .judul{
-  text-align: center;
-}
-.slide5 h2{
-  margin-top: -15em;
-}
-.slide6 h2{
-  margin-top: -25%;
-}
-.slide6{
-  background-image: url("../images/bg_slide6.png");
-  background-position: center;
-  background-size: 200%;
-  text-align: center;
-  color: white;
-}
-.slide6 .icon{
-    width: 70px;
-    height: 70px;
-    display: block;
-    margin: 0 auto;
-    background-image: url('../images/icon_s6.png');
-}
-.slide6 .icon.icon2{
-   background-position: -70px 0;
-}
-.slide6 .icon.icon3{
-   background-position: -140px 0;
-}
-.slide6 .icon.icon4{
-   background-position: -210px 0;
+	font-size: 14px;
 }
 
+.slide6 h2, .slide10 h2{
+  margin-top: -25%;
+}
+.slide6 p, .slide10 p{
+	color: #a7a7a7;
+	margin-top: 10px;
+}
+/* -------------ini css slide 1 bro------------- */
+.slide1{
+	background-image: url("../images/bg_slide10.jpg");
+	background-position: center;
+	background-size: 200%;
+	color: white;
+  }
+/* --------------------------------------------- */
+/* -------------ini css slide 5 bro------------- */
+.slide5 .judul{
+	text-align: center;
+  }
+  .slide5 h2{
+	margin-top: -15em;
+  }
 .imgslide5{
   width: 120px;
   height: 120px;
@@ -75,51 +65,77 @@ p{
 .contents5_2 .imgslide5, .contents5_3 .imgslide5{
   margin-top :50px;
 }
+
+.contents5_1 {
+	position: absolute;
+	top: 16%;
+	left: 0em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_11 {
+	position: absolute;
+	top: 0;
+	left: 12em;
+	width: 240px;
+  }
+  .contents5_2 {
+	position: absolute;
+	top: 46%;
+	left: 0em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_22 {
+	position: absolute;
+	top: 0em;
+	left: 12em;
+	width: 240px;
+  }
+  .contents5_3{
+	position: absolute;
+	top: 73%;
+	left: 0em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_33 {
+	position: absolute;
+	top: 0em;
+	left: 12em;
+	width: 243px;
+  }
+/* -------------------------------------------------------- */
+
+/* ----------------ini css slide 6 bro--------------------- */
+.slide6{
+	background-image: url("../images/bg_slide6.png");
+	background-position: center;
+	background-size: 200%;
+	text-align: center;
+	color: white;
+  }
+  .slide6 .icons6{
+	  width: 70px;
+	  height: 70px;
+	  display: block;
+	  margin: 0 auto;
+	  background-image: url('../images/icon_s6.png');
+  }
+  .slide6 .icons6.icon2{
+	 background-position: -70px 0;
+  }
+  .slide6 .icons6.icon3{
+	 background-position: -140px 0;
+  }
+  .slide6 .icons6.icon4{
+	 background-position: -210px 0;
+  }
 .contents6_1, .contents6_2, .contents6_3, .contents6_4{
   margin-top: 11em;
 }
 .contents6_1 h5, .contents6_2 h5, .contents6_3 h5, .contents6_4 h5{
   color:#fc4b1e;
-}
-
-.contents5_1 {
-  position: absolute;
-  top: 16%;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-}
-.contents5_11 {
-  position: absolute;
-  top: 0;
-  left: 12em;
-  width: 240px;
-}
-.contents5_2 {
-  position: absolute;
-  top: 46%;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-}
-.contents5_22 {
-  position: absolute;
-  top: 0em;
-  left: 12em;
-  width: 240px;
-}
-.contents5_3{
-  position: absolute;
-  top: 73%;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-}
-.contents5_33 {
-  position: absolute;
-  top: 0em;
-  left: 12em;
-  width: 243px;
 }
 
 .contents6_1 {
@@ -142,7 +158,47 @@ p{
   top: 25%;
   left: 75%;
 }
-
+/* ---------------------------------------------------- */
+/* ---------------------ini css slide 10 bro----------------------- */
+.contents10_1{
+	position: absolute;
+	top: 45%;
+}
+.contents10_2{
+	position: absolute;
+	top: 45%;
+	left: 37%;
+}
+.contents10_3{
+	position: absolute;
+	top: 45%;
+	left: 72%;
+}
+.slide10{
+	background-image: url("../images/bg_slide10.jpg");
+	background-position: center;
+	background-size: 200%;
+	text-align: center;
+	color: white;
+  }
+  .slide10 .icons10{
+	  width: 200px;
+	  height: 200px;
+	  display: block;
+	  margin: 0 auto;
+	  background-image: url('../images/icon_s10.png');
+	  background-size: 400%;
+  }
+  .slide10 .icons10.icon1{
+	background-position: -27px -10px;
+ }
+  .slide10 .icons10.icon2{
+	background-position: -307px -14px;
+  }
+  .slide10 .icons10.icon3{
+	background-position: -582px -6px;
+  }
+/* --------------------------------------------------------------- */
 .bespoke-slide {
 	font-family: ProximaNova,Arial,Sans-serif;
 
@@ -153,11 +209,11 @@ p{
 	margin-left: -32%;
 	width: 50em;
   }
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
 
 
 
@@ -286,7 +342,6 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
