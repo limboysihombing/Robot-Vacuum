@@ -19,18 +19,18 @@ p{
 	color: #a7a7a7;
 	margin-top: 10px;
 }
-/* -------------ini css slide 1 bro------------- */
-.slide1{
+/* -------------ini css dasar semua backgroud bro------------- */
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14,.slide15{
 	background-image: url("../images/bg_slide10.jpg");
-	background-position: center;
-	background-size: 200%;
-	color: white;
   }
 /* --------------------------------------------- */
 /* -------------ini css slide 5 bro------------- */
 .slide5 .judul{
 	text-align: center;
-  }
+}
+.slide5 ul{
+	text-align: left;
+}
   .slide5 h2{
 	margin-top: -15em;
   }
@@ -75,35 +75,35 @@ p{
   }
   .contents5_11 {
 	position: absolute;
-	top: 0;
-	left: 12em;
-	width: 240px;
+	top: 24px;
+	left: 11em;
+	width: 100%;
   }
   .contents5_2 {
 	position: absolute;
 	top: 46%;
-	left: 0em;
+	left: 13em;
 	width: 640px;
 	height: 155px;
   }
   .contents5_22 {
 	position: absolute;
-	top: 0em;
-	left: 12em;
-	width: 240px;
+	top: 24px;
+	left: 11em;
+	width: 100%;
   }
   .contents5_3{
 	position: absolute;
 	top: 73%;
-	left: 0em;
+	left: 24em;
 	width: 640px;
 	height: 155px;
   }
   .contents5_33 {
 	position: absolute;
-	top: 0em;
-	left: 12em;
-	width: 243px;
+	top: 24px;
+	left: 11em;
+	width: 100%;
   }
 /* -------------------------------------------------------- */
 
@@ -201,7 +201,9 @@ p{
 /* --------------------------------------------------------------- */
 .bespoke-slide {
 	font-family: ProximaNova,Arial,Sans-serif;
-
+	background-position: center;
+	background-size: 200%;
+	color: white;
 	height: 98%;
 	margin-top:-18em;
 	border-radius: 20px;
