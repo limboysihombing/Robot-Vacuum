@@ -1,0 +1,36 @@
+.halaman_depan{
+  background-image: url('/images/bg_robot_vacuum.jpg');
+  
+  background-position-x: -450px;
+  background-size: 1500px 480px;
+
+  -ms-flex-align: start;
+  align-items:inherit;
+  -ms-flex-pack: start;
+  justify-content: left;
+}
+ul li {
+  list-style: none;
+  padding: 0px;
+  margin: 0dp;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.bg-robot{
+  background-image: url('/images/bg_robot_vacuum.jpg');
+  background-size: 1600px 480px;
+  background-position-x: -450px;
+}
+
+.halaman-3{
+  -ms-flex-align: start;
+  align-items:inherit;
+  -ms-flex-pack: start;
+  justify-content: left;
+}
+.card{
+  background: rgba(255, 255, 255, 0.3);
+}

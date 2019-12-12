@@ -27,10 +27,8 @@ var pkg = require('./package.json'),
 
 gulp.task('js', ['clean:js'], function() {
   // see https://wehavefaces.net/gulp-browserify-the-gulp-y-way-bb359b3f9623
-  return browserify('src/scripts/main.js').bundle()
-    .on('error', browserifyPlumber)
-    .pipe(source('src/scripts/main.js'))
-    .pipe(buffer())
+  return gulp.src('src/scripts/build.js')
+    .pipe(isDist ? through() : plumber())
     .pipe(isDist ? uglify() : through())
     .pipe(rename('build.js'))
     .pipe(gulp.dest('dist/build'))
@@ -44,7 +42,7 @@ gulp.task('html', ['clean:html'], function() {
 });
 
 gulp.task('css', ['clean:css'], function() {
-  return gulp.src('src/styles/main.styl')
+  return gulp.src('src/scripts/build.css')
     .pipe(isDist ? through() : plumber())
     .pipe(stylus({ 'include css': true, paths: ['./node_modules'] }))
     .pipe(autoprefixer({ browsers: ['last 2 versions'], cascade: false }))
@@ -83,7 +81,7 @@ gulp.task('clean:css', function() {
 });
 
 gulp.task('clean:images', function() {
-  return del('dist/images');
+  return del('dist/images/**/*');
 });
 
 gulp.task('clean:fonts', function() {
