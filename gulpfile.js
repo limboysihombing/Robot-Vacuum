@@ -43,11 +43,6 @@ gulp.task('html', ['clean:html'], function() {
 
 gulp.task('css', ['clean:css'], function() {
   return gulp.src('src/scripts/build.css')
-    .pipe(isDist ? through() : plumber())
-    .pipe(stylus({ 'include css': true, paths: ['./node_modules'] }))
-    .pipe(autoprefixer({ browsers: ['last 2 versions'], cascade: false }))
-    .pipe(isDist ? csso() : through())
-    .pipe(rename('build.css'))
     .pipe(gulp.dest('dist/build'))
     .pipe(connect.reload());
 });

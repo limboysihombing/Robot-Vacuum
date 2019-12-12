@@ -24,6 +24,9 @@ p{
 	background-image: url("../images/bg_slide10.jpg");
   }
 /* --------------------------------------------- */
+.slide2{
+	background-image: url('../images/bg_slide2.jpg');
+}
 /* -------------ini css slide 5 bro------------- */
 .slide5 .judul{
 	text-align: center;

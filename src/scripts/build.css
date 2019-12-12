@@ -3,43 +3,40 @@
 /*---------------- Edit css nya disini gan--------------------------- */
 /*---------------- Edit css nya disini gan--------------------------- */
 
+#presentation{
+	background-image: url('../images/bg_robot_vacuum.jpg');
+	background-size: cover;
+    background-position: center;
+}
 p{
-  font-size: 10px;
+	font-size: 14px;
 }
 
+.slide6 h2, .slide10 h2{
+  margin-top: -25%;
+}
+.slide6 p, .slide10 p{
+	color: #a7a7a7;
+	margin-top: 10px;
+}
+/* -------------ini css dasar semua backgroud bro------------- */
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7,.slide8,.slide9,.slide10,.slide11,.slide12,.slide13,.slide14,.slide15{
+	background-image: url("../images/bg_slide10.jpg");
+  }
+/* --------------------------------------------- */
+.slide2{
+	background-image: url('../images/bg_slide2.jpg');
+}
+/* -------------ini css slide 5 bro------------- */
 .slide5 .judul{
-  text-align: center;
+	text-align: center;
 }
-.slide5 h2{
-  margin-top: -15em;
+.slide5 ul{
+	text-align: left;
 }
-.slide6 h2{
-  margin-top: -7em;
-}
-.slide6{
-  background-image: url("images/bg_slide6.png");
-  background-position: center;
-  background-size: 200%;
-  text-align: center;
-  color: white;
-}
-.slide6 .icon{
-    width: 70px;
-    height: 70px;
-    display: block;
-    margin: 0 auto;
-    background-image: url('images/iconslide6.png');
-}
-.slide6 .icon.icon2{
-   background-position: -70px 0;
-}
-.slide6 .icon.icon3{
-   background-position: -140px 0;
-}
-.slide6 .icon.icon4{
-   background-position: -210px 0;
-}
-
+  .slide5 h2{
+	margin-top: -15em;
+  }
 .imgslide5{
   width: 120px;
   height: 120px;
@@ -71,6 +68,72 @@ p{
 .contents5_2 .imgslide5, .contents5_3 .imgslide5{
   margin-top :50px;
 }
+
+.contents5_1 {
+	position: absolute;
+	top: 16%;
+	left: 0em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_11 {
+	position: absolute;
+	top: 24px;
+	left: 11em;
+	width: 100%;
+  }
+  .contents5_2 {
+	position: absolute;
+	top: 46%;
+	left: 13em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_22 {
+	position: absolute;
+	top: 24px;
+	left: 11em;
+	width: 100%;
+  }
+  .contents5_3{
+	position: absolute;
+	top: 73%;
+	left: 24em;
+	width: 640px;
+	height: 155px;
+  }
+  .contents5_33 {
+	position: absolute;
+	top: 24px;
+	left: 11em;
+	width: 100%;
+  }
+/* -------------------------------------------------------- */
+
+/* ----------------ini css slide 6 bro--------------------- */
+.slide6{
+	background-image: url("../images/bg_slide6.png");
+	background-position: center;
+	background-size: 200%;
+	text-align: center;
+	color: white;
+  }
+  .slide6 .icons6{
+	  width: 70px;
+	  height: 70px;
+	  display: block;
+	  margin: 0 auto;
+	  background-image: url('../images/icon_s6.png');
+  }
+  .slide6 .icons6.icon2{
+	 background-position: -70px 0;
+  }
+  .slide6 .icons6.icon3{
+	 background-position: -140px 0;
+  }
+  .slide6 .icons6.icon4{
+	 background-position: -210px 0;
+  }
 .contents6_1, .contents6_2, .contents6_3, .contents6_4{
   margin-top: 11em;
 }
@@ -78,76 +141,72 @@ p{
   color:#fc4b1e;
 }
 
-.contents5_1 {
-  position: absolute;
-  top: 3em;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-  /*background: #757575;*/
-}
-.contents5_11 {
-  position: absolute;
-  top: 0;
-  left: 12em;
-  width: 240px;
-}
-.contents5_2 {
-  position: absolute;
-  top: 194px;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-  /*background: #757575;*/
-}
-.contents5_22 {
-  position: absolute;
-  top: 0em;
-  left: 12em;
-  width: 240px;
-}
-.contents5_3{
-  position: absolute;
-  top: 342px;
-  left: 0em;
-  width: 640px;
-  height: 155px;
-}
-.contents5_33 {
-  position: absolute;
-  top: 0em;
-  left: 12em;
-  width: 243px;
-}
-
 .contents6_1 {
   position: absolute;
-  top: 5em;
-  left: 4em;
+  top: 25%;
+  left: 15%;
 }
 .contents6_2 {
   position: absolute;
-  top: 5em;
-  left: 12em;
+  top: 25%;
+  left: 33%;
 }
 .contents6_3 {
   position: absolute;
-  top: 5em;
-  left: 21em;
+  top: 25%;
+  left: 52%;
 }
 .contents6_4 {
   position: absolute;
-  top: 5em;
-  left: 31em;
+  top: 25%;
+  left: 75%;
 }
-
-body{
-  background-image: url('images/background.jpg');
-  font-family: ProximaNova,Arial,Sans-serif;
+/* ---------------------------------------------------- */
+/* ---------------------ini css slide 10 bro----------------------- */
+.contents10_1{
+	position: absolute;
+	top: 45%;
 }
-
+.contents10_2{
+	position: absolute;
+	top: 45%;
+	left: 37%;
+}
+.contents10_3{
+	position: absolute;
+	top: 45%;
+	left: 72%;
+}
+.slide10{
+	background-image: url("../images/bg_slide10.jpg");
+	background-position: center;
+	background-size: 200%;
+	text-align: center;
+	color: white;
+  }
+  .slide10 .icons10{
+	  width: 200px;
+	  height: 200px;
+	  display: block;
+	  margin: 0 auto;
+	  background-image: url('../images/icon_s10.png');
+	  background-size: 400%;
+  }
+  .slide10 .icons10.icon1{
+	background-position: -27px -10px;
+ }
+  .slide10 .icons10.icon2{
+	background-position: -307px -14px;
+  }
+  .slide10 .icons10.icon3{
+	background-position: -582px -6px;
+  }
+/* --------------------------------------------------------------- */
 .bespoke-slide {
-	background-image: url('images/bg_robot_vacuum.jpg');
+	font-family: ProximaNova,Arial,Sans-serif;
+	background-position: center;
+	background-size: 200%;
+	color: white;
 	height: 98%;
 	margin-top:-18em;
 	border-radius: 20px;
@@ -155,11 +214,11 @@ body{
 	margin-left: -32%;
 	width: 50em;
   }
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
-/* ---------------Sampai sini aja ya, sisanya ynag di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
+/* ---------------Sampai sini aja ya, sisanya yang di bawah jangan di otak atik- by Reyhan Mahardhika -------------------------------------------------------------*/
 
 
 
@@ -288,7 +347,6 @@ dfn {
  */
 
 h1 {
-  font-size: 2em;
   margin: 0.67em 0;
 }
 
@@ -591,7 +649,7 @@ li {
   line-height: 1.6;
 }
 p {
-  margin: 0 0 1rem 0;
+  margin: 0 0 1px 0;
 }
 ul,
 ol {
@@ -847,6 +905,7 @@ article.clean.pre-progress .bespoke-progress span {
 	width: 0 !important;
 }
 article.clean section {
+	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	transition: all 0.8s cubic-bezier(0.26, 0.86, 0.44, 0.985);
 	z-index: 1;
